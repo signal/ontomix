@@ -3,7 +3,7 @@ package wav
 
 import (
 	"io"
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind/spec"
 )
 
 // the Format struct must be in the exact order according

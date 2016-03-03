@@ -4,10 +4,10 @@ package source
 import (
 	"math"
 
-	"github.com/go-ontomix/ontomix/bind"
-	"github.com/go-ontomix/ontomix/bind/debug"
-	"github.com/go-ontomix/ontomix/bind/spec"
-	"github.com/go-ontomix/ontomix/bind/sample"
+	"gopkg.in/ontomix.v0/bind"
+	"gopkg.in/ontomix.v0/bind/debug"
+	"gopkg.in/ontomix.v0/bind/spec"
+	"gopkg.in/ontomix.v0/bind/sample"
 )
 
 func Configure(s spec.AudioSpec) {

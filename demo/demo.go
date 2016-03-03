@@ -11,9 +11,9 @@ import (
 
 	"gopkg.in/pkg/profile.v1"
 
-	"github.com/go-ontomix/ontomix"
-	"github.com/go-ontomix/ontomix/bind"
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0"
+	"gopkg.in/ontomix.v0/bind"
+	"gopkg.in/ontomix.v0/bind/spec"
 )
 
 var (

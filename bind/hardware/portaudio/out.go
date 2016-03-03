@@ -4,8 +4,8 @@ package portaudio
 import (
 	"github.com/gordonklaus/portaudio"
 
-	"github.com/go-ontomix/ontomix/bind/sample"
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind/sample"
+	"gopkg.in/ontomix.v0/bind/spec"
 )
 
 var outPortaudioStream *portaudio.Stream

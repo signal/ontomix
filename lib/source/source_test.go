@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-ontomix/ontomix/bind/debug"
-	"github.com/go-ontomix/ontomix/bind/spec"
-	"github.com/go-ontomix/ontomix/bind/sample"
+	"gopkg.in/ontomix.v0/bind/debug"
+	"gopkg.in/ontomix.v0/bind/spec"
+	"gopkg.in/ontomix.v0/bind/sample"
 )
 
 // TODO: test multi-channel source audio files

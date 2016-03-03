@@ -2,7 +2,7 @@
 package sample
 
 import (
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind/spec"
 )
 
 // OutNextCallbackFunc to stream mix out from ontomix

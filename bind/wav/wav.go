@@ -5,8 +5,8 @@ import (
 	"os"
 	"io"
 
-	"github.com/go-ontomix/ontomix/bind/spec"
-	"github.com/go-ontomix/ontomix/bind/sample"
+	"gopkg.in/ontomix.v0/bind/spec"
+	"gopkg.in/ontomix.v0/bind/sample"
 )
 
 // Load a WAV file into memory

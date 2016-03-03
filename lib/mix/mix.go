@@ -5,13 +5,13 @@ import (
 	"math"
 	"time"
 
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind/spec"
 
-	"github.com/go-ontomix/ontomix/bind/debug"
-	"github.com/go-ontomix/ontomix/lib/fire"
-	"github.com/go-ontomix/ontomix/lib/source"
-	"github.com/go-ontomix/ontomix/bind/sample"
-"github.com/go-ontomix/ontomix/bind"
+	"gopkg.in/ontomix.v0/bind/debug"
+	"gopkg.in/ontomix.v0/lib/fire"
+	"gopkg.in/ontomix.v0/lib/source"
+	"gopkg.in/ontomix.v0/bind/sample"
+"gopkg.in/ontomix.v0/bind"
 )
 
 // NextSample returns the next sample mixed in all channels

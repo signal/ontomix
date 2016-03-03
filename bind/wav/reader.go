@@ -8,8 +8,8 @@ import (
 
 	riff "github.com/youpy/go-riff"
 
-	"github.com/go-ontomix/ontomix/bind/sample"
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind/sample"
+	"gopkg.in/ontomix.v0/bind/spec"
 	"fmt"
 )
 

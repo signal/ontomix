@@ -11,8 +11,8 @@
 //       "os"
 //       "time"
 //
-//       "github.com/go-ontomix/ontomix"
-//       "github.com/go-ontomix/ontomix/bind"
+//       "gopkg.in/ontomix.v0"
+//       "gopkg.in/ontomix.v0/bind"
 //     )
 //
 //     var (
@@ -86,7 +86,7 @@
 //
 // Game audio mixers are designed to play audio spontaneously, but when the timing is known in advance (e.g. sequence-based music apps) there is a demand for much greater accuracy in playback timing.
 //
-// Read the API documentation at [godoc.org/github.com/go-ontomix/ontomix](https://godoc.org/github.com/go-ontomix/ontomix)
+// Read the API documentation at [godoc.org/gopkg.in/ontomix.v0](https://godoc.org/gopkg.in/ontomix.v0)
 //
 // **Ontomix** seeks to solve the problem of audio mixing for the purpose of the playback of sequences where audio files and their playback timing is known in advance.
 //
@@ -96,7 +96,7 @@
 //
 // NOTICE: THIS PROJECT IS IN ALPHA STAGE, AND THE API MAY BE SUBJECT TO CHANGE
 //
-// Best efforts will be made to preserve each API version in a release tag that can be parsed, e.g. **[github.com/go-ontomix/ontomix](http://github.com/go-ontomix/ontomix)**
+// Best efforts will be made to preserve each API version in a release tag that can be parsed, e.g. **[gopkg.in/ontomix.v0](http://gopkg.in/ontomix.v0)**
 //
 // Why
 //
@@ -169,12 +169,12 @@ package ontomix
 import (
 	"time"
 
-	"github.com/go-ontomix/ontomix/bind"
-	"github.com/go-ontomix/ontomix/bind/debug"
-	"github.com/go-ontomix/ontomix/bind/spec"
+	"gopkg.in/ontomix.v0/bind"
+	"gopkg.in/ontomix.v0/bind/debug"
+	"gopkg.in/ontomix.v0/bind/spec"
 
-	"github.com/go-ontomix/ontomix/lib/fire"
-	"github.com/go-ontomix/ontomix/lib/mix"
+	"gopkg.in/ontomix.v0/lib/fire"
+	"gopkg.in/ontomix.v0/lib/mix"
 )
 
 // VERSION # of this ontomix source code
